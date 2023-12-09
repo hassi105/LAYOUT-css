@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+/* div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+animation: example 6s linear infinite;
+   
+   
+} */
+/* @keyframes example {
+    0%{
+       background-color: yellow;
+       margin-top: 0px;
+       margin-left: 0px;
+    }
+    25%
+    {
+        background-color: blue;
+       margin-top: 0px;
+       margin-left: 500px;
+    }
+    50%{
+        background-color: black;
+        margin-top: 500px;   
+        margin-left: 500px;
+    }    
+    75%{
+        background-color: brown;
+       margin-top: 500px;
+       margin-left: 0px;
+
+    }
+    100%{
+        background-color: orchid;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    } */
+img{
+    height: 200px;
+    width: 200px;
+    transition: width 2s linear ;
+}
+img:hover{
+    width: 1000px;
+    height: 1000px;
+}
